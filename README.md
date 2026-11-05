@@ -1,6 +1,8 @@
-# Teal Corporate Report — 青绿企业汇报 PPT 模板（WorkBuddy Skill）
+# Teal Corporate Report — 电网风格青绿企业汇报 PPT 模板（WorkBuddy Skill）
 
-一套青绿色企业工作汇报 PPT 风格模板，封装为 WorkBuddy Skill。基于 slidep DSL 生成 `.pptx`，提供**封面 / 目录 / 正文（图文 & 卡片两种版式）/ 结束**五类页面骨架，全部参数化占位，填入内容即可成稿。
+一套**电网风格**的青绿色企业工作汇报 PPT 模板，封装为 WorkBuddy Skill。基于 slidep DSL 生成 `.pptx`，提供**封面 / 目录 / 正文（图文 & 卡片两种版式）/ 结束**五类页面骨架，全部参数化占位，填入内容即可成稿。
+
+> 关键词：电网风格 PPT、电力行业汇报模板、青绿企业汇报、PPT 模板、PowerPoint template、WorkBuddy Skill
 
 ![封面](screenshots/page1.png)
 
