@@ -1,0 +1,7 @@
+<Slide style={{ width: 1280, height: 720, background: '#FFFFFF', padding: 0 }}>
+    <Image src="assets/logo.png" style={{ position: 'absolute', left: 0, top: 5, width: 393, height: 133 }} />
+    <Image src="assets/band.png" style={{ position: 'absolute', left: 0, top: 193, width: 1280, height: 356, objectFit: 'fill' }} />
+    <Box style={{ position: 'absolute', left: 13, top: 259, width: 1254, height: 2, background: '#FFFFFF', opacity: 0.85 }} />
+    <Box style={{ position: 'absolute', left: 16, top: 547, width: 1248, height: 2, background: '#FFFFFF', opacity: 0.85 }} />
+    <Text style={{ position: 'absolute', left: 0, top: 325, width: 1280, fontSize: 72, fontWeight: 'bold', color: '#FFFFFF', fontFamily: '微软雅黑', textAlign: 'center' }}>{{结束语}}</Text>
+</Slide>

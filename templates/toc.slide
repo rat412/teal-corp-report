@@ -1,0 +1,22 @@
+<Slide style={{ width: 1280, height: 720, background: '#FFFFFF', padding: 0 }}>
+    <Image src="assets/catalog_bg.png" style={{ position: 'absolute', left: 0, top: 0, width: 1280, height: 720, objectFit: 'fill' }} />
+    <Box style={{ position: 'absolute', left: 138, top: 240, width: 5, height: 86, background: '#FFFFFF' }} />
+    <Text style={{ position: 'absolute', left: 170, top: 238, fontSize: 60, fontWeight: 'bold', color: '#FFFFFF', fontFamily: '微软雅黑' }}>目录</Text>
+    <Text style={{ position: 'absolute', left: 172, top: 322, width: 500, fontSize: 18, color: '#FFFFFF', fontFamily: 'Arial', opacity: 0.9 }}>CONTENTS</Text>
+    <Box style={{ position: 'absolute', left: 620, top: 195, width: 640, gap: 42 }}>
+        {[
+            { num: '一', name: '{{章节1}}' },
+            { num: '二', name: '{{章节2}}' },
+            { num: '三', name: '{{章节3}}' },
+        ].map((item, idx) => (
+            <Box key={idx} style={{ flexDirection: 'row', alignItems: 'center' }}>
+                <Box style={{ width: 72, height: 72, borderRadius: 36, border: '3px solid #008A80', background: '#FFFFFF', justifyContent: 'center', alignItems: 'center', zIndex: 2 }}>
+                    <Text style={{ fontSize: 28, fontWeight: 'bold', color: '#00706B', fontFamily: '微软雅黑' }}>{item.num}</Text>
+                </Box>
+                <Box style={{ flex: 1, height: 60, marginLeft: -18, paddingLeft: 40, justifyContent: 'center', alignItems: 'center', zIndex: 1, background: idx === {{ACTIVE}} ? '#008A80' : '#F2F2F2', border: idx === {{ACTIVE}} ? 'none' : '1px solid #D9D9D9' }}>
+                    <Text style={{ fontSize: 26, fontWeight: idx === {{ACTIVE}} ? 'bold' : 'normal', color: idx === {{ACTIVE}} ? '#FFFFFF' : '#1E293B', fontFamily: '微软雅黑' }}>{item.name}</Text>
+                </Box>
+            </Box>
+        ))}
+    </Box>
+</Slide>
