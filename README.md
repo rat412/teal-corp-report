@@ -1,8 +1,8 @@
-# Teal Corporate Report — 电网风格青绿企业汇报 PPT 模板（WorkBuddy Skill）
+# Teal Corporate Report — 电网风格青绿企业汇报 PPT 模板（通用 Agent Skill）
 
-一套**电网风格**的青绿色企业工作汇报 PPT 模板，封装为 WorkBuddy Skill。基于 slidep DSL 生成 `.pptx`，提供**封面 / 目录 / 正文（图文 & 卡片两种版式）/ 结束**五类页面骨架，全部参数化占位，填入内容即可成稿。
+一套**电网风格**的青绿色企业工作汇报 PPT 模板，封装为通用 AI Agent Skill（SKILL.md 规范，Claude Code / Codex / DeepSeek 等各类 AI 编码工具均可使用）。基于 slidep DSL 生成 `.pptx`，提供**封面 / 目录 / 正文（图文 & 卡片两种版式）/ 结束**五类页面骨架，全部参数化占位，填入内容即可成稿。
 
-> 关键词：电网风格 PPT、电力行业汇报模板、青绿企业汇报、PPT 模板、PowerPoint template、WorkBuddy Skill
+> 关键词：电网风格 PPT、电力行业汇报模板、青绿企业汇报、PPT 模板、PowerPoint template、Agent Skill、Claude Code、Codex、DeepSeek
 
 ![封面](screenshots/page1.png)
 
@@ -47,10 +47,11 @@ teal-corp-report/
 
 ## 使用方法
 
-1. 将整个文件夹复制到 WorkBuddy skill 目录：
-   - 用户级（全局可用）：`~/.workbuddy/skills/teal-corp-report/`
-   - 项目级（仅当前项目）：`<项目>/.workbuddy/skills/teal-corp-report/`
-2. 在 WorkBuddy 对话中说明要生成的汇报内容，即可按本模板风格产出 PPT；或手动复制 `templates/` 骨架、替换 `{{占位符}}` 后用 slidep 逐页写入：
+1. 将整个文件夹复制到你所用工具的 skill 目录（SKILL.md 规范为通用约定）：
+   - Claude Code：`~/.claude/skills/teal-corp-report/`
+   - 其他支持 SKILL.md 的 Agent 工具：放入其 skills 目录即可
+   - 不支持 skill 机制的工具：直接把 `SKILL.md` + `templates/` 当作模板规范文档使用
+2. 让 AI 按本模板风格产出 PPT；或手动复制 `templates/` 骨架、替换 `{{占位符}}` 后用 slidep 逐页写入：
    ```bash
    slidep create "汇报.pptx"
    slidep upsert-dsl "汇报.pptx" --dsl-file slides/01.slide

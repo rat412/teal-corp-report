@@ -1,6 +1,6 @@
 ---
 name: teal-corp-report
-description: 青绿色企业工作汇报PPT模板风格（Teal Corporate Report）。当需要生成正式工作汇报/进展汇报类PPT、且要求青绿（teal）企业风格时使用。提供封面/目录/正文/结束四种页面骨架与视觉规范，配合 slidep 工具链生成 .pptx。触发词：工作汇报PPT、青绿风格PPT、企业汇报模板、进展汇报。
+description: 青绿色企业工作汇报PPT模板风格（Teal Corporate Report）。当需要生成正式工作汇报/进展汇报类PPT、且要求青绿（teal）企业风格时使用。提供封面/目录/正文/结束四种页面骨架与视觉规范。触发词：工作汇报PPT、青绿风格PPT、企业汇报模板、进展汇报。
 ---
 
 # 青绿企业汇报 PPT 风格 Skill（Teal Corporate Report）
